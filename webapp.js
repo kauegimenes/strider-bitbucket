@@ -263,7 +263,7 @@ function makeAccount(token, tokenSecret, profile, repos) {
   return {
     provider: 'bitbucket',
     id: profile.username,
-    display_url: 'https://bitbucket.com/' + profile.username,
+    display_url: 'https://bitbucket.org/' + profile.username,
     title: profile.username,
     config: {
       accessToken: token,
